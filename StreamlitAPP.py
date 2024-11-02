@@ -13,7 +13,7 @@ from langchain_community.callbacks.manager import get_openai_callback
 sys.path.append(r"C:\Users\apv03\mcqgen\src\mcqgenerator")
 
 # Now import generate_evaluate_chain
-from MCQGenerator import generate_evaluate_chain
+from mcqgenerator.MCQGenerator import generate_evaluate_chain
 
 with open('Response.json', 'r') as file:
     RESPONSE_JSON = json.load(file)
