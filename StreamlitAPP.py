@@ -8,6 +8,7 @@ from src.mcqgenerator.utils import read_file, get_table_data
 from src.mcqgenerator.logger import logging
 import streamlit as st
 from langchain_community.callbacks.manager import get_openai_callback
+from src.mcqgenerator.MCQGenerator import generate_evaluate_chain
 
 # Add the directory containing MCQGenerator.py to the Python path
 sys.path.append(r"C:\Users\apv03\mcqgen\src\mcqgenerator")
